@@ -1,0 +1,14 @@
+.DS_Store
+
+/logs
+/target
+
+/.project
+/.classpath
+/.settings
+
+/.idea
+/.idea_modules
+
+/project/project
+/project/target

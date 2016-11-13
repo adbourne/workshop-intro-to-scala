@@ -1,0 +1,10 @@
+##
+# Routes
+##
+
+# Index
+GET     /                           controllers.IndexController.index
+
+# Map static resources in /public to /asset
+GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
+

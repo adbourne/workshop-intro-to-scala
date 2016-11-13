@@ -1,0 +1,23 @@
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+
+html,
+body {
+  height: 100%;
+  background-color: #333;
+  font-family: Helvetica, Arial, Sans-Serif;
+}
+
+body {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
+.celebration-cat{
+    margin-top: 25px;
+}
