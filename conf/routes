@@ -4,6 +4,13 @@
 
 # Index
 GET     /                           controllers.IndexController.index
+GET     /animals                    controllers.ZooController.allOfTheAnimals
+GET     /animals/20                 controllers.ZooController.animals20AndOver
+GET     /animals/cats               controllers.ZooController.bigCats
+GET     /animals/cats/speed         controllers.ZooController.bigCatsOrderedByTopSpeed
+GET     /animals/summary            controllers.ZooController.animalsSummary
+GET     /animals/rhinos/temp        controllers.ZooController.rhinoTemp
+
 
 # Map static resources in /public to /asset
 GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
